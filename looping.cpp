@@ -8,7 +8,7 @@ int main(){
     //Perulangan dengan FOR
     //mencetak tulisan sebanyak 5 kali
     cout<<"PERULANGAN FOR"<<endl
-    for( int i=0;i<=4;i++ ){
+    for( int i=0;i<=4;i++){
         cout<<"Teknologi Informasi UMY"<<endl;
     }
     cout<<endl;
@@ -30,7 +30,14 @@ int main(){
     //Perulangan dengan DO...WHILE
     cout<<"PERULANGAN DO...WHILE"<<endl;
     x = 1 + rand()%10;
-    } 
+    do{
+        cout<<"Bilangan acak = "<<x <<endl;
+    }while(x<=5);
 
-    
+    cout<<"Bilangan acak do-while yang terakhir ="<<x <<endl;
+    cout<<endl;
 }
+
+Logika not
+#include <iostream>
+using namepspace std;
