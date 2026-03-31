@@ -43,6 +43,11 @@ Logika not
 using namepspace std;
 
 int main(){
-    float niLB,nilM,rerata;
+    float nilB,nilM,rerata;
     string status;
+
+    cout<<"Masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
 }
