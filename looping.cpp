@@ -7,7 +7,7 @@ int main(){
 
     //Perulangan dengan FOR
     //mencetak tulisan sebanyak 5 kali
-    cout<<"PERULANGAN FOR"<<endl
+    cout<<"PERULANGAN FOR"<<endl;
     for( int i=0;i<=4;i++){
         cout<<"Teknologi Informasi UMY"<<endl;
     }
@@ -64,3 +64,20 @@ int main(){
 Logika AND 
 #include <iostream>
 using namespace std;
+
+int main(){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"Masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai Bahasa Inggrris = ";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+
+    if ((rerata >= 60) && (nilM >= 70))
+        status = "Lulus";
+    else
+        status = "Tidak lulus";
+}
