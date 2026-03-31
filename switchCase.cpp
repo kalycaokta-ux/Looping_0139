@@ -9,4 +9,5 @@ string statusKuota;
 // prosedur input
 void input() {
     cout << "=== PENDAFTARAN JURUSAN KAMPUS ===" << endl;
+    cout << "1. Teknologi Informasi" << endl;
 }
