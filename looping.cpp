@@ -57,5 +57,6 @@ int main(){
         status = "Lulus";
     else
         status = "Tidak lulus";
-        
+
+   cout<<"Status kelulusan = "<<status<<" , dengan nilai rata-rata  = "<<rerata<<endl;     
 }
