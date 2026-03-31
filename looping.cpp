@@ -14,4 +14,9 @@ int main(){
     cout<<endl;
     //untuk mendapatkan urutan angka acak yang berbeda
     srand(time(0));
+
+    //Perulangan dengan WHILE
+    cout<<"PERULANGAN WHILE"<<endl;
+    x = 1 + rand()%10;
+    
 }
