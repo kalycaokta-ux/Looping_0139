@@ -41,3 +41,8 @@ int main(){
 Logika not
 #include <iostream>
 using namepspace std;
+
+int main(){
+    float niLB,nilM,rerata;
+    string status;
+}
