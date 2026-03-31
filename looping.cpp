@@ -50,4 +50,5 @@ int main(){
     cin>>nilM;
     cout<<"Masukkan nilai Bahasa Inggris = ";
     cin>>nilB;
+    
 }
